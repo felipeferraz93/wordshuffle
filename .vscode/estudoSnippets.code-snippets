@@ -403,5 +403,14 @@
 		],
 		"description": "Add combo box in aura bundle"
 	},
+
+	"Aura Register Event": {
+		"scope": "html,component",
+		"prefix": "aura-registerEvent",
+		"body":[
+			"<aura:registerEvent name=\"${1:eventName}\" type=\"${2:namespace}:${3:eventName}\"/>"
+		],
+		"description": "Add combo box in aura bundle"
+	},
 	
 }
