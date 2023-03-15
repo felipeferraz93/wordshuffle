@@ -413,4 +413,14 @@
 		"description": "Add combo box in aura bundle"
 	},
 	
+	"Aura Methods": {
+		"scope": "html,component",
+		"prefix": "aura-method",
+		"body":[
+			"<aura:method name=\"{1:eventName}\" action=\"${2:action}\" description=\"${3:description}\">",
+			"\t <aura:attribute name=\"${4:attributeName}\" type=\"${5:attributeType}\" />",
+			"</aura:method>"
+		],
+		"description": "Add combo box in aura bundle"
+	},
 }
